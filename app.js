@@ -2,7 +2,7 @@ const express = require('express')
 const router = require('./route')
 const app = express()
 
-const host = 'localhost';
+const host = '0.0.0.0';
 const port = 8080;
 
 app.get('/', function (req, res) {
